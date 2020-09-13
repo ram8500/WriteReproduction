@@ -191,6 +191,12 @@ body {
 .content {
   display: block;
 }
+.time {
+  margin: 0 auto;
+}
+.thema {
+  margin: 0 auto;
+}
 .footer-content {
   display: block;
   margin: 0 auto;
@@ -238,5 +244,7 @@ width: 100%;
 }
 /* ここからタブレット対応 */
 @media screen and (min-width:768px) and (max-width:1024px) {
-
+.self {
+  width: 25%;
+}
 }
